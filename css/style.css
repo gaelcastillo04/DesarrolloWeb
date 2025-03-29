@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    height: 130px;
+    background-color:  #0066CC;
+}
+.center-element{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements-left{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.letra-titulo{
+    color:whitesmoke;
+    font-style: oblique;
+    font-size: 35px;
+    line-height: 0.85px;
+}
+
+.letra-texto{
+    color: whitesmoke;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.texto-interlineado{
+    line-height: 0.5;
+    margin-bottom: 10px;
+}
+
+.letra-size{
+    font-size: 20px;
+    font-style: initial;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.titulos-size{
+    font-size:30px;
+    font-style: initial;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.preguntas-size{
+    font-size: 22px;
+    font-style: initial;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.margen-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-indice{
+    width: 30%;
+    height: 220px;
+    background-color: #e0e0e0;
+    border: solid;
+}
+
+.container-seccion1{
+    width: 100;
+    height: 250px;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2F4e4e1a_5e005c984403480282ba36c3147b5572~mv2.jpg%2Fv1%2Ffill%2Fw_1000%2Ch_371%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2F4e4e1a_5e005c984403480282ba36c3147b5572~mv2.jpg&f=1&nofb=1&ipt=f2160642e0b8e12af3d366fa54dbc165a3c78d7e766af33099188371c5ffdc50&ipo=images');
+    border-bottom: solid 5px;
+}
+
+.margen-texto{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.hr{
+    width: 100%;
+    height: 3px;
+    background-color: #808080;
+}
